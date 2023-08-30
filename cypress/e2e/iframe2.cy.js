@@ -2,12 +2,10 @@
 ///<reference types="cypress" />
 import 'cypress-iframe'; 
 describe("To automate the iframe website",()=>{
-    
-    Cypress.on('uncaught:exception',(err, runnable)=>{
+      Cypress.on('uncaught:exception',(err, runnable)=>{
         return false
     })
     it("Open iframe website",()=>{
-
    cy.visit("https://rahulshettyacademy.com/AutomationPractice/")
    cy.frameLoaded("#courses-iframe")//scrollTo('bottom')
    cy.iframe().find("a[href='practice-project']").eq(1).click({force:true})
