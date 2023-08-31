@@ -6,6 +6,7 @@ describe("To open the google page",()=>{
 
         cy.visit("https://www.google.com")
         cy.visit("www.youtube.com")
+        cy.visit("www.youtube.com")
     })
 
 
