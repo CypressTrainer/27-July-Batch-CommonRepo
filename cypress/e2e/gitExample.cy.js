@@ -10,6 +10,7 @@ describe("To open the google page", () => {
 
         cy.visit("www.facebook.com")
         cy.log("I am Gopi")
+
         cy.log("I am Femina ")
     })
 
