@@ -1,4 +1,3 @@
-///<reference types = 'cypress'/>
 
 describe("To open the google page", () => {
 
@@ -6,10 +5,7 @@ describe("To open the google page", () => {
 
         cy.visit("https://www.google.com")
 
-        cy.visit("www.youtube.com")
-
-        cy.visit("www.facebook.com")
-        cy.log("I am Gopi")
+        cy.log("hello world")
     })
 
 
